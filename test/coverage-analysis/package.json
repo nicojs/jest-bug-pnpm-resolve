@@ -1,0 +1,11 @@
+{
+  "name": "coverage-analysis",
+  "description": "A e2e test for --coverageAnalysis",
+  "type": "module",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest --config jest.config.json"
+  },
+  "dependencies": {
+    "jest": "^30.2.0"
+  }
+}
